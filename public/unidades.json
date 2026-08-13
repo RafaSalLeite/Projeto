@@ -1,0 +1,47 @@
+{
+  "agendamentos": [],
+  "unidadesSaude": [
+    {
+      "cnes": 1,
+      "nome": "UBS Central",
+      "razaoSocial": "Hospital Central de Saúde Ltda",
+      "endereco": "Av. Principal, 1234",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "telefone": "(11) 3456-7890",
+      "tiposConsulta": [1, 2, 3]
+    },
+    {
+      "cnes": 2,
+      "nome": "UBS Jardim das Flores",
+      "razaoSocial": "Unidade Básica Jardim das Flores",
+      "endereco": "Rua das Flores, 567",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "telefone": "(11) 2345-6789",
+      "tiposConsulta": [1, 4]
+    }
+  ],
+  "tiposConsulta": [
+    {
+      "id": 1,
+      "nome": "Consulta Geral",
+      "descricao": "Consulta médica geral"
+    },
+    {
+      "id": 2,
+      "nome": "Cardiologia",
+      "descricao": "Consulta cardiológica"
+    },
+    {
+      "id": 3,
+      "nome": "Ortopedia",
+      "descricao": "Consulta ortopédica"
+    },
+    {
+      "id": 4,
+      "nome": "Pediatria",
+      "descricao": "Consulta pediátrica"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+/* ===== MOBILE FIRST ===== */
+.menubar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ebf7fa;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 0.6rem 1rem;
+  position: relative;
+  z-index: 10;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.logo-img {
+  height: 55px;
+  width: auto;
+}
+
+/* Ícone de menu */
+.menu-icon {
+  font-size: 1.8rem;
+  color: slateblue;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.menu-icon:hover {
+  transform: scale(1.1);
+}
+/* ===== TELAS MÉDIAS (tablet) ===== */
+@media (min-width: 600px) {
+
+  .logo-img {
+    height: 65px;
+  }
+}
+
+/* ===== TELAS GRANDES (desktop) ===== */
+@media (min-width: 1024px) {
+  .menubar-container {
+    justify-content: space-between;
+  }
+
+
+  .menu-icon {
+    font-size: 2rem;
+  }
+
+  .logo {
+
+  }
+
+  .logo-img {
+    height: 90px;
+  }
+}

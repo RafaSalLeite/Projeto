@@ -1,0 +1,12 @@
+{
+  "configNivelAcesso": [
+    { "id": "1", "descricao": "Acesso ao dashboard", "status": 1, "categoria_nivel_acessoid": "1" },
+    { "id": "2", "descricao": "Permissão para gerenciar pacientes", "status": 1, "categoria_nivel_acessoid": "2" },
+    { "id": "3", "descricao": "Permissão para gerenciar atendimentos", "status": 1, "categoria_nivel_acessoid": "3" },
+    { "id": "4", "descricao": "Permissão para configurar sistema", "status": 1, "categoria_nivel_acessoid": "4" },
+    { "id": "5", "descricao": "Permissão para gerar relatórios", "status": 1, "categoria_nivel_acessoid": "1" },
+    { "id": "6", "descricao": "Permissão para gerenciar usuários", "status": 1, "categoria_nivel_acessoid": "1" },
+    { "id": "7", "descricao": "Permissão para visualizar logs do sistema", "status": 1, "categoria_nivel_acessoid": "2" },
+    { "id": "8", "descricao": "Permissão para enviar notificações", "status": 1, "categoria_nivel_acessoid": "3" }
+  ]
+}

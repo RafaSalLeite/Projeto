@@ -1,0 +1,217 @@
+/* ===== CONTAINER GERAL ===== */
+.nivelAcessoEdit-container {
+  width: 100%;
+  min-height: 100vh;
+  background: #f5f7fb;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===== WRAPPER DA PÁGINA ===== */
+.edit-wrapper {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  width: 100%;
+  max-width: 1400px;
+  margin: auto;
+}
+
+/* ===== SIDEBAR DE CATEGORIAS ===== */
+.categoria-menu {
+  width: 260px;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.categoria-menu h3 {
+  margin: 0 0 10px;
+  color: #25597d;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 8px;
+}
+
+/* ===== ITEM DA LISTA ===== */
+.categoria-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f7f9fc;
+  padding: 12px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: 0.25s;
+  border: 1px solid transparent;
+}
+
+.categoria-item:hover {
+  background: #eef6ff;
+}
+
+.categoria-item.active {
+  background: #d9ecff;
+  border-color: #6aa9ff;
+}
+
+/* Status ON/OFF */
+.status {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
+
+.status.ativo {
+  background: #28a745;
+}
+
+.status.inativo {
+  background: #dc3545;
+}
+
+/* ===== CARD PRINCIPAL ===== */
+.config-card {
+  flex: 1;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+.card-header h2 {
+  margin: 0;
+  color: #1f4f6f;
+}
+
+.nivel-info {
+  margin-top: 10px;
+  font-size: 0.95rem;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+/* ===== DETALHES DA CATEGORIA ===== */
+.categoria-detalhes {
+  margin-top: 20px;
+  background: #f7fafd;
+  padding: 20px;
+  border-radius: 10px;
+  border-left: 5px solid #5daaf8;
+}
+
+.categoria-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.categoria-header h3 {
+  margin: 0;
+  color: #1a5276;
+  font-size: 1.3rem;
+}
+
+.categoria-toggle {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+/* ===== CONFIGURAÇÕES ===== */
+.configuracoes {
+  margin-top: 20px;
+}
+
+.configuracoes h4 {
+  margin-bottom: 10px;
+  color: #1d5b82;
+}
+
+.config-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 12px;
+  background: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #e5e5e5;
+  margin-bottom: 8px;
+  align-items: center;
+}
+
+.config-item span {
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.aviso {
+  margin-top: 10px;
+  color: #b33a3a;
+  font-size: 0.85rem;
+}
+
+/* ===== BOTÕES ===== */
+.botoes {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 15px;
+}
+
+.btn-salvar {
+  width: 5rem;
+  height: 2.5rem;
+  background: #28a745 !important;
+  border: none !important;
+  padding: 0;
+  text-align: center;
+}
+
+.btn-cancelar {
+  width: 5rem;
+  height: 2.5rem;
+  background: #dc3545 !important;
+  border: none !important;
+  padding: 0;
+  text-align: center;
+}
+
+/* ===== RESPONSIVIDADE ===== */
+@media (max-width: 980px) {
+  .edit-wrapper {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .categoria-menu {
+    width: 100%;
+  }
+
+  .config-card {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .categoria-item span {
+    font-size: 0.85rem;
+  }
+
+  .config-item span {
+    font-size: 0.85rem;
+  }
+
+  .categoria-header h3 {
+    font-size: 1.1rem;
+  }
+}

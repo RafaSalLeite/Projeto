@@ -1,0 +1,33 @@
+{
+  "niveisAcesso": [
+    {
+      "id": 1,
+      "nome": "Paciente",
+      "funcoes" [1]
+    },
+    {
+      "id": 2, 
+      "nome": "Atendente",
+      "funcoes" [1, 2]
+    },
+    {
+      "id": 3,
+      "nome": "Administrador",
+      "funcoes" [1, 2, 3]
+    }
+  ],
+  "funcoes": [
+    {
+      "id": 1,
+      "descricao": "Acesso primário - Visualizar e agendar consultas",
+    },
+    {
+      "id": 2,
+      "descricao": "Acesso parcial - Gerenciar agendamentos e pacientes", 
+    },
+    {
+      "id": 3,
+      "descricao": "Acesso total - Administrar todo o sistema",
+    }
+  ]
+}

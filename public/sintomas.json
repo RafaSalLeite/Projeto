@@ -1,0 +1,18 @@
+{
+  "sintomas": [
+    { "label": "Contato confirmado com COVID-19", "value": "CONTATO_CONFIRMADO_COVID" },
+    { "label": "Febre", "value": "FEBRE" },
+    { "label": "Tosse", "value": "TOSSE" },
+    { "label": "Dor de cabeça", "value": "DOR_CABECA" },
+    { "label": "Dor no corpo", "value": "DOR_CORPO" },
+    { "label": "Falta de ar", "value": "FALTA_AR" },
+    { "label": "Dor de garganta", "value": "DOR_GARGANTA" },
+    { "label": "Coriza", "value": "CORIZA" },
+    { "label": "Náusea", "value": "NAUSEA" },
+    { "label": "Vômito", "value": "VOMITO" },
+    { "label": "Diarreia", "value": "DIARREIA" },
+    { "label": "Perda de olfato", "value": "ANOSMIA" },
+    { "label": "Perda de paladar", "value": "AGEUSIA" },
+    { "label": "Cansaço extremo", "value": "CANSACO_EXTREMO" }
+  ]
+}

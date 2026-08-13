@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "cid": "A09",
+    "nomeDoenca": "Gastroenterite infecciosa",
+    "agravo": "agudo",
+    "sexo": "Ambos"
+  },
+  {
+    "id": 2,
+    "cid": "J45",
+    "nomeDoenca": "Asma",
+    "agravo": "crônico",
+    "sexo": "Ambos"
+  },
+  {
+    "id": 3,
+    "cid": "I10",
+    "nomeDoenca": "Hipertensão essencial",
+    "agravo": "crônico",
+    "sexo": "Ambos"
+  },
+  {
+    "id": 4,
+    "cid": "E11",
+    "nomeDoenca": "Diabetes mellitus tipo 2",
+    "agravo": "crônico",
+    "sexo": "Ambos"
+  },
+  {
+    "id": 5,
+    "cid": "J00",
+    "nomeDoenca": "Resfriado comum",
+    "agravo": "leve",
+    "sexo": "Ambos"
+  },
+  {
+    "id": 6,
+    "cid": "N30",
+    "nomeDoenca": "Cistite",
+    "agravo": "moderado",
+    "sexo": "F"
+  },
+  {
+    "id": 7,
+    "cid": "K21",
+    "nomeDoenca": "Refluxo gastroesofágico",
+    "agravo": "moderado",
+    "sexo": "Ambos"
+  },
+  {
+    "id": 8,
+    "cid": "L30",
+    "nomeDoenca": "Dermatite",
+    "agravo": "leve",
+    "sexo": "Ambos"
+  },
+  {
+    "id": 9,
+    "cid": "M54",
+    "nomeDoenca": "Dor lombar",
+    "agravo": "moderado",
+    "sexo": "Ambos"
+  },
+  {
+    "id": 10,
+    "cid": "F32",
+    "nomeDoenca": "Episódio depressivo",
+    "agravo": "grave",
+    "sexo": "Ambos"
+  },
+  {
+    "id": 11,
+    "cid": "G40",
+    "nomeDoenca": "Epilepsia",
+    "agravo": "crônico",
+    "sexo": "Ambos"
+  },
+  {
+    "id": 12,
+    "cid": "J18",
+    "nomeDoenca": "Pneumonia",
+    "agravo": "grave",
+    "sexo": "Ambos"
+  },
+  {
+    "id": 13,
+    "cid": "A63",
+    "nomeDoenca": "HPV",
+    "agravo": "crônico",
+    "sexo": "Ambos"
+  },
+  {
+    "id": 14,
+    "cid": "N76",
+    "nomeDoenca": "Vaginite",
+    "agravo": "leve",
+    "sexo": "F"
+  },
+  {
+    "id": 15,
+    "cid": "H10",
+    "nomeDoenca": "Conjuntivite",
+    "agravo": "agudo",
+    "sexo": "Ambos"
+  },
+  {
+    "id": 16,
+    "cid": "K52",
+    "nomeDoenca": "Enterocolite não infecciosa",
+    "agravo": "moderado",
+    "sexo": "Ambos"
+  },
+  {
+    "id": 17,
+    "cid": "I20",
+    "nomeDoenca": "Angina pectoris",
+    "agravo": "grave",
+    "sexo": "M"
+  },
+  {
+    "id": 18,
+    "cid": "G43",
+    "nomeDoenca": "Enxaqueca",
+    "agravo": "moderado",
+    "sexo": "F"
+  },
+  {
+    "id": 19,
+    "cid": "E66",
+    "nomeDoenca": "Obesidade",
+    "agravo": "crônico",
+    "sexo": "Ambos"
+  },
+  {
+    "id": 20,
+    "cid": "A48",
+    "nomeDoenca": "Tétano",
+    "agravo": "grave",
+    "sexo": "Ambos"
+  }
+]

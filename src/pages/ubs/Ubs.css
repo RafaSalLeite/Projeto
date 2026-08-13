@@ -1,0 +1,72 @@
+/* Container geral */
+.card {
+    max-width: 100vh;
+    margin: 1rem auto;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Título */
+.card h2 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Área de cada UBS */
+.ubs-item {
+    padding: 1.2rem;
+    border-bottom: 1px solid #e3e3e3;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+/* Nome da UBS */
+.ubs-nome {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #222;
+}
+
+/* Endereço */
+.ubs-endereco {
+    font-size: 0.95rem;
+    color: #666;
+}
+
+/* Cidade + UF */
+.ubs-cidade {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+/* Linha do botão */
+.ubs-btn-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0.5rem;
+}
+
+/* Ajuste do botão Selecionar */
+.ubs-btn-wrapper .p-button {
+    font-size: 0.85rem;
+    padding: 0.4rem 1rem;
+}
+
+/* Responsivo — diminui margens no mobile */
+@media (max-width: 600px) {
+    .card {
+        padding: 1.5rem;
+    }
+
+    .ubs-item {
+        padding: 1rem;
+    }
+
+    .ubs-nome {
+        font-size: 1.1rem;
+    }
+}

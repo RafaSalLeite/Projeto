@@ -1,0 +1,1191 @@
+[1G[0K⠙[1G[0K
+> react-javascript@1.0.0 dev
+> vite
+
+[1G[0K⠙[1G[0K
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J
+  [32m[1mVITE[22m v7.1.2[39m  [2mready in [0m[1m812[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5000[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://172.24.0.2:[1m5000[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:55:40 PM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: [33mDuplicate "label" attribute in JSX element[33m
+475 |                      label="Confirmar Agendamento"
+476 |  
+477 |                      label="Confirmar Agendamento"
+    |                      ^
+478 |                      icon="pi pi-check"
+479 |                      iconPos="right"
+[39m
+  Plugin: [35mvite:esbuild[39m
+  File: [36m/home/runner/workspace/src/pages/agendamento/Agendamento.jsx[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:55:44 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/agendamento/Agendamento.jsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:55:50 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/agendamento/Agendamento.jsx[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:55:50 PM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: [33mDuplicate "label" attribute in JSX element[33m
+475 |                      label="Confirmar Agendamento"
+476 |  
+477 |                      label="Confirmar Agendamento"
+    |                      ^
+478 |                      icon="pi pi-check"
+479 |                      iconPos="right"
+[39m
+  Plugin: [35mvite:esbuild[39m
+  File: [36m/home/runner/workspace/src/pages/agendamento/Agendamento.jsx[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:55:59 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/agendamento/Agendamento.jsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:55:59 PM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: [33mDuplicate "label" attribute in JSX element[33m
+475 |                      label="Confirmar Agendamento"
+476 |  
+477 |                      label="Confirmar Agendamento"
+    |                      ^
+478 |                      icon="pi pi-check"
+479 |                      iconPos="right"
+[39m
+  Plugin: [35mvite:esbuild[39m
+  File: [36m/home/runner/workspace/src/pages/agendamento/Agendamento.jsx[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:56:08 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/agendamento/Agendamento.jsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:56:08 PM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: [33mDuplicate "label" attribute in JSX element[33m
+475 |                      label="Confirmar Agendamento"
+476 |  
+477 |                      label="Confirmar Agendamento"
+    |                      ^
+478 |                      icon="pi pi-check"
+479 |                      iconPos="right"
+[39m
+  Plugin: [35mvite:esbuild[39m
+  File: [36m/home/runner/workspace/src/pages/agendamento/Agendamento.jsx[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:56:47 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/agendamento/Agendamento.jsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:56:47 PM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: [33mDuplicate "label" attribute in JSX element[33m
+475 |                      label="Confirmar Agendamento"
+476 |  
+477 |                      label="Confirmar Agendamento"
+    |                      ^
+478 |                      icon="pi pi-check"
+479 |                      iconPos="right"
+[39m
+  Plugin: [35mvite:esbuild[39m
+  File: [36m/home/runner/workspace/src/pages/agendamento/Agendamento.jsx[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:57:00 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/agendamento/Agendamento.jsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:57:00 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: /home/runner/workspace/src/pages/agendamento/Agendamento.jsx: Missing semicolon. (174:11)
+
+[0m [90m 172 |[31m     }[33m;[31m
+ [90m 173 |[31m
+[31m[1m>[22m[31m[90m 174 |[31m     comenta aqui pra mim 
+ [90m     |[31m            [31m[1m^[22m[31m
+ [90m 175 |[31m     [36mconst[31m fetchSintomas [33m=[31m [36masync[31m () [33m=>[31m {
+ [90m 176 |[31m         [36mtry[31m {
+ [90m 177 |[31m             [36mconst[31m response [33m=[31m [36mawait[31m fetch([32m'/MedScan/sintomas/sintomasList'[31m[33m,[31m {[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36m/home/runner/workspace/src/pages/agendamento/Agendamento.jsx[39m:174:11
+[33m  172 |      };
+  173 |  
+  174 |      comenta aqui pra mim 
+      |             ^
+  175 |      const fetchSintomas = async () => {
+  176 |          try {[39m
+      at constructor (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:367:19)
+      at JSXParserMixin.raise (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:6627:19)
+      at JSXParserMixin.semicolon (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:6923:10)
+      at JSXParserMixin.parseExpressionStatement (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:13285:10)
+      at JSXParserMixin.parseStatementContent (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12899:19)
+      at JSXParserMixin.parseStatementLike (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseStatementListItem (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12747:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:13316:61)
+      at JSXParserMixin.parseBlockBody (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:13309:10)
+      at JSXParserMixin.parseBlock (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:13297:10)
+      at JSXParserMixin.parseFunctionBody (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12101:24)
+      at JSXParserMixin.parseFunctionBodyAndFinish (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12087:10)
+      at /home/runner/workspace/node_modules/@babel/parser/lib/index.js:13445:12
+      at JSXParserMixin.withSmartMixTopicForbiddingContext (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12404:14)
+      at JSXParserMixin.parseFunction (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:13444:10)
+      at JSXParserMixin.parseExportDefaultExpression (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:13907:19)
+      at JSXParserMixin.parseExport (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:13828:25)
+      at JSXParserMixin.parseStatementContent (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12878:27)
+      at JSXParserMixin.parseStatementLike (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseModuleItem (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12744:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:13316:36)
+      at JSXParserMixin.parseBlockBody (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:13309:10)
+      at JSXParserMixin.parseProgram (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12625:10)
+      at JSXParserMixin.parseTopLevel (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12615:25)
+      at JSXParserMixin.parse (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:14492:10)
+      at parse (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:14526:38)
+      at parser (/home/runner/workspace/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/runner/workspace/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/runner/workspace/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/runner/workspace/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/runner/workspace/node_modules/gensync/index.js:261:32)
+      at /home/runner/workspace/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/runner/workspace/node_modules/gensync/index.js:223:11)
+      at /home/runner/workspace/node_modules/gensync/index.js:189:28
+      at /home/runner/workspace/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/runner/workspace/node_modules/gensync/index.js:113:33
+      at step (/home/runner/workspace/node_modules/gensync/index.js:287:14)
+      at /home/runner/workspace/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/runner/workspace/node_modules/gensync/index.js:223:11)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:57:05 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/agendamento/Agendamento.jsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:57:05 PM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: [33mDuplicate "label" attribute in JSX element[33m
+475 |                      label="Confirmar Agendamento"
+476 |  
+477 |                      label="Confirmar Agendamento"
+    |                      ^
+478 |                      icon="pi pi-check"
+479 |                      iconPos="right"
+[39m
+  Plugin: [35mvite:esbuild[39m
+  File: [36m/home/runner/workspace/src/pages/agendamento/Agendamento.jsx[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:57:11 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/agendamento/Agendamento.jsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:57:11 PM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: [33mDuplicate "label" attribute in JSX element[33m
+475 |                      label="Confirmar Agendamento"
+476 |  
+477 |                      label="Confirmar Agendamento"
+    |                      ^
+478 |                      icon="pi pi-check"
+479 |                      iconPos="right"
+[39m
+  Plugin: [35mvite:esbuild[39m
+  File: [36m/home/runner/workspace/src/pages/agendamento/Agendamento.jsx[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:57:53 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.jsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:57:58 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.jsx[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:58:52 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.jsx[22m [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:58:57 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.jsx[22m [33m(x4)[39m
+[2m7:58:57 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: /home/runner/workspace/src/pages/doencas/DoencaList.jsx: Missing semicolon. (109:7)
+
+[0m [90m 107 |[39m   }[33m;[39m
+ [90m 108 |[39m
+[31m[1m>[22m[39m[90m 109 |[39m   fetch [36mdelete[39m doenca [33m-[39m descomentar quando o backend estiver pronto
+ [90m     |[39m        [31m[1m^[22m[39m
+ [90m 110 |[39m   [36mconst[39m confirmarExclusao [33m=[39m [36masync[39m () [33m=>[39m {
+ [90m 111 |[39m     [36mif[39m ([33m![39mdoencaSelecionado) [36mreturn[39m[33m;[39m
+ [90m 112 |[39m[0m
+  Plugin: [35mvite:react-babel[39m
+  File: [36m/home/runner/workspace/src/pages/doencas/DoencaList.jsx[39m:109:7
+[33m  107 |    };
+  108 |  
+  109 |    fetch delete doenca - descomentar quando o backend estiver pronto
+      |         ^
+  110 |    const confirmarExclusao = async () => {
+  111 |      if (!doencaSelecionado) return;[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:58:57 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: /home/runner/workspace/src/pages/doencas/DoencaList.jsx: Missing semicolon. (109:7)
+
+[0m [90m 107 |[31m   }[33m;[31m
+ [90m 108 |[31m
+[31m[1m>[22m[31m[90m 109 |[31m   fetch [36mdelete[31m doenca [33m-[31m descomentar quando o backend estiver pronto
+ [90m     |[31m        [31m[1m^[22m[31m
+ [90m 110 |[31m   [36mconst[31m confirmarExclusao [33m=[31m [36masync[31m () [33m=>[31m {
+ [90m 111 |[31m     [36mif[31m ([33m![31mdoencaSelecionado) [36mreturn[31m[33m;[31m
+ [90m 112 |[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36m/home/runner/workspace/src/pages/doencas/DoencaList.jsx[39m:109:7
+[33m  107 |    };
+  108 |  
+  109 |    fetch delete doenca - descomentar quando o backend estiver pronto
+      |         ^
+  110 |    const confirmarExclusao = async () => {
+  111 |      if (!doencaSelecionado) return;[39m
+      at constructor (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:367:19)
+      at JSXParserMixin.raise (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:6627:19)
+      at JSXParserMixin.semicolon (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:6923:10)
+      at JSXParserMixin.parseExpressionStatement (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:13285:10)
+      at JSXParserMixin.parseStatementContent (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12899:19)
+      at JSXParserMixin.parseStatementLike (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseStatementListItem (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12747:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:13316:61)
+      at JSXParserMixin.parseBlockBody (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:13309:10)
+      at JSXParserMixin.parseBlock (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:13297:10)
+      at JSXParserMixin.parseFunctionBody (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12101:24)
+      at JSXParserMixin.parseFunctionBodyAndFinish (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12087:10)
+      at /home/runner/workspace/node_modules/@babel/parser/lib/index.js:13445:12
+      at JSXParserMixin.withSmartMixTopicForbiddingContext (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12404:14)
+      at JSXParserMixin.parseFunction (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:13444:10)
+      at JSXParserMixin.parseExportDefaultExpression (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:13907:19)
+      at JSXParserMixin.parseExport (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:13828:25)
+      at JSXParserMixin.parseStatementContent (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12878:27)
+      at JSXParserMixin.parseStatementLike (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseModuleItem (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12744:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:13316:36)
+      at JSXParserMixin.parseBlockBody (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:13309:10)
+      at JSXParserMixin.parseProgram (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12625:10)
+      at JSXParserMixin.parseTopLevel (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12615:25)
+      at JSXParserMixin.parse (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:14492:10)
+      at parse (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:14526:38)
+      at parser (/home/runner/workspace/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/runner/workspace/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/runner/workspace/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/runner/workspace/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/runner/workspace/node_modules/gensync/index.js:261:32)
+      at /home/runner/workspace/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/runner/workspace/node_modules/gensync/index.js:223:11)
+      at /home/runner/workspace/node_modules/gensync/index.js:189:28
+      at /home/runner/workspace/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/runner/workspace/node_modules/gensync/index.js:113:33
+      at step (/home/runner/workspace/node_modules/gensync/index.js:287:14)
+      at /home/runner/workspace/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/runner/workspace/node_modules/gensync/index.js:223:11)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m8:01:08 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/ubs/Ubs.jsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m8:01:14 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/ubs/Ubs.jsx[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m8:01:51 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/usuarios/UsuarioList.jsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m8:01:58 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/usuarios/UsuarioList.jsx[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m8:02:13 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/usuarios/UsuarioList.jsx[22m [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m8:03:24 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/usuarios/UsuarioNew.jsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m8:03:38 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/usuarios/UsuarioNew.jsx[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m8:03:42 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/usuarios/UsuarioNew.jsx[22m [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m8:03:54 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/usuarios/UsuarioNew.jsx[22m [33m(x4)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m8:05:14 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.jsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m8:05:17 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/usuarios/UsuarioList.jsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m8:11:20 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/ubs/Ubs.jsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m8:11:25 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/agendamento/Agendamento.jsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m8:11:56 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.jsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m8:12:00 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/usuarios/UsuarioList.jsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m8:12:31 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/usuarios/UsuarioNew.jsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m8:12:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/usuarios/UsuarioList.jsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m8:12:36 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/usuarios/UsuarioEdit.jsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m8:12:39 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/nivelAcesso/NivelAcessoNew.jsx[22m

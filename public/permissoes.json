@@ -1,0 +1,30 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Acompanhamento Domiciliar",
+      "configuracoes": [
+        { "id": 1, "nome": "Acesso Geral", "valor": false },
+        { "id": 2, "nome": "Relatórios", "valor": false }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Agend. Ambulância",
+      "configuracoes": [
+        { "id": 1, "nome": "Motorista", "valor": false },
+        { "id": 2, "nome": "Escala de Motoristas", "valor": false },
+        { "id": 3, "nome": "Agenda de Ambulância", "valor": false }
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Agendamento",
+      "configuracoes": [
+        { "id": 1, "nome": "Criar Agendamento", "valor": false },
+        { "id": 2, "nome": "Editar Agendamento", "valor": false },
+        { "id": 3, "nome": "Excluir Agendamento", "valor": false }
+      ]
+    }
+  ]
+}

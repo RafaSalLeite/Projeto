@@ -1,0 +1,8 @@
+#search-result {
+  color: black;
+  padding: 0.625rem 1.25rem;
+}
+
+#search-result:hover {
+  background-color: #efefef;
+}

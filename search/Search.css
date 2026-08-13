@@ -1,0 +1,11 @@
+#search-component-container {
+  width: 100%;
+}
+
+#search-bar-container {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

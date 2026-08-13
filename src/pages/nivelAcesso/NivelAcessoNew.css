@@ -1,0 +1,54 @@
+#div-nivelAcessoNew {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#containerNivelNew {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#panelNivelNew {
+  width: 100%;
+  display: flex;
+  border-radius: 5%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.field {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.buttons button {
+  margin: 0 0.5rem;
+}
+
+/* RESPONSIVO */
+@media (max-width: 48rem) {
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .buttons button {
+    width: 100%;
+    max-width: 200px;
+    margin: 0.5rem 0;
+  }
+}

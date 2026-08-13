@@ -1,0 +1,8 @@
+{
+  "categoriaNivelAcesso": [
+    { "id": "1", "descricao": "Visualizar Dashboard" },
+    { "id": "2", "descricao": "Gerenciar Pacientes" },
+    { "id": "3", "descricao": "Gerenciar Atendimentos" },
+    { "id": "4", "descricao": "Configurações do Sistema" }
+  ]
+}

@@ -1,0 +1,19 @@
+#results-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  max-height: 30vh;  /* altura máxima antes de rolar */
+  width: 100%;
+  overflow-y: auto;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-top: none;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  list-style: none;
+  margin-top: 0;
+  margin-left: 1.5%;
+  padding: 0;
+  border-radius: 0 0 4px 4px; /* borda arredondada embaixo */
+}

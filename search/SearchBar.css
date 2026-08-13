@@ -1,0 +1,89 @@
+/* Wrapper do input */
+#input-wrapper {
+  width: 100%;
+  height: 3.5rem; /* altura relativa ao root font-size */
+  border: none;
+  border-radius: 3rem; /* arredondado usando rem */
+  padding: 0 1.25rem; /* 20px → 1.25rem */
+  box-shadow: 0 0.25rem 1.25rem rgba(0, 0, 0, 0.1); /* 4px 20px → rem */
+  background-color: white;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+#input-wrapper:focus-within {
+  box-shadow: 0 0.25rem 1.5625rem rgba(0, 0, 0, 0.15); /* 4px 25px → rem */
+  transform: translateY(-0.125rem); /* 2px → rem */
+}
+
+/* Input interno */
+#search-input {
+  background-color: transparent;
+  border: none;
+  height: 100%;
+  font-size: 1.1rem;
+  width: 100%;
+  margin-left: 0.75rem; /* 12px → rem */
+  color: #333;
+}
+
+#search-input:focus {
+  outline: none;
+}
+
+#search-input::placeholder {
+  color: #999;
+}
+
+#search-icon {
+  color: #08839B;
+  font-size: 1.2rem;
+}
+
+/* Container do input + dropdown */
+#search-wrapper {
+  position: relative;
+  width: 100%;
+  margin: 0 auto; /* centraliza em telas maiores */
+}
+
+/* Lista de resultados (dropdown) */
+#result-item {
+  padding: 0.625rem 0.75rem; /* 10px 12px → rem */
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#result-item:hover {
+  background-color: #f0f0f0;
+}
+
+/* Estilos responsivos */
+@media (max-width: 48rem) { /* 768px → rem */
+  #search-wrapper {
+    max-width: 100%;
+    margin: 0 0.625rem; /* 10px → rem */
+  }
+
+  #search-input {
+    font-size: 0.875rem; /* 14px → rem */
+    padding: 0.5rem 0.625rem; /* 8px 10px → rem */
+  }
+
+  #result-item {
+    padding: 0.5rem 0.625rem;
+  }
+}
+
+@media (max-width: 30rem) { /* 480px → rem */
+  #search-input {
+    font-size: 0.8125rem; /* 13px → rem */
+    padding: 0.375rem 0.5rem; /* 6px 8px → rem */
+  }
+
+  #result-item {
+    padding: 0.375rem 0.5rem;
+    font-size: 0.875rem; /* 14px → rem */
+  }
+}

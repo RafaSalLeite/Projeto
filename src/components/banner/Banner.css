@@ -1,0 +1,17 @@
+.banner-carousel-container {
+  width: 100%;
+  max-width: 800px;   /* Ajuste conforme quiser */
+  margin: 0 auto;
+}
+
+.banner-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;  /* opcional: bordas arredondadas */
+}

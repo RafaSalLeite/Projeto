@@ -1,0 +1,142 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+  background: linear-gradient(135deg, #2C353C, #1A5C6B, #08839B);
+}
+
+#page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+#form-card {
+  border-radius: 1rem; /* 16px → 1rem */
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  max-width: 25rem; /* largura máxima do card */
+  width: 100%;
+}
+
+#form-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+#form-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; /* espaçamento consistente entre inputs */
+  width: 100%;
+}
+
+.p-float-label {
+  width: 100%;
+  display: block; /* garante que o wrapper ocupe a largura inteira */
+  margin-bottom: 0;
+}
+
+.p-float-label input,
+.p-float-label .p-inputtext,
+.p-float-label .p-password-input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.p-float-label label {
+  left: 0.5rem; /* placeholder flutuante */
+}
+
+#primary-button {
+  background-color: #08839B !important;
+  border-color: #08839B !important;
+  color: white !important;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  width: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+#primary-button:hover {
+  background-color: #06677a !important;
+  border-color: #06677a !important;
+}
+
+#redirect-text {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 1.5rem;
+  color: #333;
+}
+
+#redirect-text a {
+  color: #3b82f6;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#redirect-text a:hover {
+  text-decoration: underline;
+}
+
+#div-img {
+  position: absolute;
+  top: 10%;
+  z-index: 999;
+  width: 35%;
+  height: 6vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#logo-img {
+  width: 100%;
+  height: auto;
+}
+
+
+@media (min-width: 769px) { /* 550px */
+  #div-img {
+    top: 8%;
+    width: 15%;
+  }
+
+  #page-container {
+    padding: 0.25rem;
+  }
+
+  input.p-password-input.p-inputtext.p-component {
+    max-width: 9.375rem; /* 150px → rem */
+  }
+}
+@media (min-width: 1024px) { /* 550px */
+  #div-img {
+    top: -1%;
+    width: 10%;
+  }
+
+  #page-container {
+    padding: 0.25rem;
+  }
+
+  input.p-password-input.p-inputtext.p-component {
+    max-width: 9.375rem; /* 150px → rem */
+  }
+}

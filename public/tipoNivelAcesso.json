@@ -1,0 +1,18 @@
+{
+  "tipoNivelAcesso": [
+    { "id": "1", "categorianivelacessoid": "1", "nivelacessoid": "1" },
+    { "id": "2", "categorianivelacessoid": "3", "nivelacessoid": "1" },
+
+    { "id": "3", "categorianivelacessoid": "1", "nivelacessoid": "2" },
+    { "id": "4", "categorianivelacessoid": "2", "nivelacessoid": "2" },
+
+    { "id": "5", "categorianivelacessoid": "1", "nivelacessoid": "3" },
+    { "id": "6", "categorianivelacessoid": "2", "nivelacessoid": "3" },
+    { "id": "7", "categorianivelacessoid": "3", "nivelacessoid": "3" },
+
+    { "id": "8", "categorianivelacessoid": "1", "nivelacessoid": "4" },
+    { "id": "9", "categorianivelacessoid": "2", "nivelacessoid": "4" },
+    { "id": "10", "categorianivelacessoid": "3", "nivelacessoid": "4" },
+    { "id": "11", "categorianivelacessoid": "4", "nivelacessoid": "4" }
+  ]
+}

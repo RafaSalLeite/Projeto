@@ -1,0 +1,51 @@
+{
+  "funcoes": [
+    {
+      "id": "1",
+      "descricao": "Paciente"
+    },
+    {
+      "id": "2",
+      "descricao": "Atendente"
+    },
+    {
+      "id": "3",
+      "descricao": "Administrador"
+    }
+  ],
+
+  "niveisAcesso": [
+    { 
+"id": "1", 
+"descricao": "paciente",
+      "Funcoes": {
+        "id": "1",
+        "descricao": "Paciente"
+      }
+ },
+    {
+ "id": "2", 
+"descricao": "estagiario",
+      "Funcoes": {
+        "id": "2",
+        "descricao": "atendente"
+      }
+},
+    { 
+"id": "3",
+ "descricao": "coordenador",
+      "Funcoes": {
+        "id": "3",
+        "descricao": "atendente"
+      }
+ },
+{
+"id": "4",
+"descricao": "administrador",
+  "Funcoes": {
+    "id": "4",
+    "descricao": "Administrador"
+  }
+}
+  ]
+}
