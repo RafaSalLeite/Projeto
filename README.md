@@ -19,5 +19,9 @@ O parâmetro --name define um nome específico para o processo em execução.
 Acessar a aplicação no navegador Com o contêiner rodando,
 abra o seu navegador de preferência e digite o seguinte endereço: http://localhost:8080
 
-Nota: Este projeto utiliza um arquivo .dockerignore para listar arquivos e pastas que não devem ser incluídos na imagem (como a pasta node_modules),
+Nota:
+O Dockerfile é um arquivo de texto que contém todas as instruções sequenciais necessárias para que o Docker consiga compilar e gerar uma imagem personalizada do seu sistema
+exemplo: Instalação de Dependências: foi utilizado para baixar o PrimeReact, PrimeIcons e outras bibliotecas listadas no package.json
+
+Este projeto utiliza um arquivo .dockerignore para listar arquivos e pastas que não devem ser incluídos na imagem (como a pasta node_modules),
 garantindo que o contêiner seja construído de forma rápida e permaneça leve
