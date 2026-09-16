@@ -1,20 +1,54 @@
 pipeline {
     agent any
+
+    options {
+        skipDefaultCheckout(true)
+    }
+
     stages {
-        stage('Build') {
+        stage('Obter código') {
             steps {
-                echo 'compilando...'
+                echo 'Obtendo o projeto do GitHub...'
+                checkout scm
             }
         }
-        stage('Test') {
+
+        stage('Verificar arquivos') {
             steps {
-                echo 'Rodando testes...'
+                echo 'Verificando os arquivos do projeto...'
+                sh 'find . -maxdepth 2 -type f'
             }
         }
-        stage('Deploy') {
+
+        stage('Analisar código') {
             steps {
-                echo 'Deploy realizado com sucesso!!!!'
+                echo 'Procurando marcações pendentes...'
+                sh '''
+                    if grep -RniE "TODO|FIXME" . \
+                        --exclude-dir=.git \
+                        --exclude=Jenkinsfile
+                    then
+                        echo "Foram encontradas marcações pendentes."
+                    else
+                        echo "Nenhuma marcação pendente foi encontrada."
+                    fi
+                '''
             }
+        }
+
+        stage('Finalização') {
+            steps {
+                echo 'Pipeline executada com sucesso!'
+            }
+        }
+    }
+
+    post {
+        success {
+            echo 'O projeto passou por todas as etapas.'
+        }
+        failure {
+            echo 'A Pipeline apresentou um erro. Consulte o console.'
         }
     }
 }
