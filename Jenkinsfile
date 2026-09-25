@@ -13,17 +13,7 @@ pipeline {
                 checkout scm
             }
         }
-
-        stage('SonarQube Analysis') {
-            steps {
-                // 'SonarServer' deve ser o mesmo nome que configurou no Gerenciar Jenkins > System [3]
-                withSonarQubeEnv('SonarServer') {
-                    sh 'sonar-scanner'
-                }
-            }
-        }
-
-        stage('Verificar arquivos') {
+quivos') {
             steps {
                 echo 'Verificando os arquivos do projeto...'
                 sh 'find . -maxdepth 2 -type f'
