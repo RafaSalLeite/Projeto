@@ -42,7 +42,14 @@ pipeline {
             }
         }
     }
-
+stage('SonarQube Analysis') {
+    steps {
+        // 'SonarServer' deve ser o mesmo nome que deste no passo anterior
+        withSonarQubeEnv('SonarServer') {
+            sh 'sonar-scanner'
+        }
+    }
+}
     post {
         success {
             echo 'O projeto passou por todas as etapas.'
