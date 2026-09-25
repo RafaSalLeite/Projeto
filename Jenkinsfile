@@ -2,21 +2,24 @@ pipeline {
     agent any
 
     options {
+        // Pula o checkout automático para usarmos o checkout manual no estágio 'Obter código'
         skipDefaultCheckout(true)
     }
-stage('SonarQube Analysis') {
-    steps {
-        // 'SonarServer' deve ser o mesmo nome que deste no passo anterior
-        withSonarQubeEnv('SonarServer') {
-            sh 'sonar-scanner'
-        }
-    }
-}
+
     stages {
         stage('Obter código') {
             steps {
                 echo 'Obtendo o projeto do GitHub...'
                 checkout scm
+            }
+        }
+
+        stage('SonarQube Analysis') {
+            steps {
+                // 'SonarServer' deve ser o mesmo nome que configurou no Gerenciar Jenkins > System [3]
+                withSonarQubeEnv('SonarServer') {
+                    sh 'sonar-scanner'
+                }
             }
         }
 
