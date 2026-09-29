@@ -16,10 +16,10 @@ pipeline {
     stage('SonarQube Analysis') {
             steps {
                 script {
-                    // Obtém o caminho da ferramenta instalada no Jenkins chamada 'sonar-scanner'
                     def scannerHome = tool 'sonar-scanner'
                     withSonarQubeEnv('SonarServer') {
-                        sh "${scannerHome}/bin/sonar-scanner"
+                        // Adicionada a propriedade sonar.projectKey
+                        sh "${scannerHome}/bin/sonar-scanner -Dsonar.projectKey=projeto_medscan"
                     }
                 }
             }
