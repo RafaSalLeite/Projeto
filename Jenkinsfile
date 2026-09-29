@@ -13,11 +13,14 @@ pipeline {
             }
         }
 
-        stage('SonarQube Analysis') {
+    stage('SonarQube Analysis') {
             steps {
-                // 'SonarServer' deve ser o mesmo nome configurado no Jenkins
-                withSonarQubeEnv('SonarServer') {
-                    sh 'sonar-scanner'
+                script {
+                    // Obtém o caminho da ferramenta instalada no Jenkins chamada 'sonar-scanner'
+                    def scannerHome = tool 'sonar-scanner'
+                    withSonarQubeEnv('SonarServer') {
+                        sh "${scannerHome}/bin/sonar-scanner"
+                    }
                 }
             }
         }
